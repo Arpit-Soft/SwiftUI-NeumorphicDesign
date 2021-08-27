@@ -14,6 +14,8 @@
 		2DFF278826D8FDD8007E0372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF278726D8FDD8007E0372 /* Preview Assets.xcassets */; };
 		2DFF278B26D8FDD8007E0372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF278926D8FDD8007E0372 /* LaunchScreen.storyboard */; };
 		2DFF279426D8FE22007E0372 /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF279326D8FE22007E0372 /* NeumorphicButton.swift */; };
+		2DFF279926D95391007E0372 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF279826D95391007E0372 /* MusicPlayerView.swift */; };
+		2DFF279C26D95BF6007E0372 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF279B26D95BF6007E0372 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2DFF278A26D8FDD8007E0372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DFF278C26D8FDD8007E0372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DFF279326D8FE22007E0372 /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		2DFF279826D95391007E0372 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		2DFF279B26D95BF6007E0372 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				2DFF278C26D8FDD8007E0372 /* Info.plist */,
 				2DFF278626D8FDD8007E0372 /* Preview Content */,
 				2DFF279326D8FE22007E0372 /* NeumorphicButton.swift */,
+				2DFF279826D95391007E0372 /* MusicPlayerView.swift */,
+				2DFF279B26D95BF6007E0372 /* SliderView.swift */,
 			);
 			path = "SwiftUI-NeumorphicDesign";
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFF279926D95391007E0372 /* MusicPlayerView.swift in Sources */,
 				2DFF277F26D8FDD5007E0372 /* AppDelegate.swift in Sources */,
 				2DFF278126D8FDD5007E0372 /* SceneDelegate.swift in Sources */,
+				2DFF279C26D95BF6007E0372 /* SliderView.swift in Sources */,
 				2DFF278326D8FDD5007E0372 /* ContentView.swift in Sources */,
 				2DFF279426D8FE22007E0372 /* NeumorphicButton.swift in Sources */,
 			);
